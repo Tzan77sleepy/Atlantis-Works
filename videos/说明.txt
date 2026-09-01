@@ -1,0 +1,24 @@
+🎬 视频放置说明
+========================================
+
+把视频文件放到这个文件夹里，然后在
+src/content.js 文件中填写路径即可。
+
+1. 正片视频（作品区主视频）：
+   - 将视频（如 main.mp4）放到本文件夹
+   - 在 src/content.js 的 works.video.mainVideoUrl 填写 '/videos/main.mp4'
+   - 填写后作品区会自动显示播放器
+
+2. Hero 背景视频：
+   - 将视频放到 public 文件夹下（注意不是 videos 文件夹）
+   - 命名为 hero-bg.mp4
+   - 在 src/content.js 的 hero.videoUrl 填写 '/hero-bg.mp4'
+
+3. 单个视频作品：
+   - 在 works.video.list 中为每个作品填写 videoUrl
+
+📌 注意：
+- 路径必须以 /videos/ 开头
+- 支持格式：mp4 / webm / ogg
+- 推荐使用 mp4 (H.264编码)，兼容性最好
+- 视频文件建议压缩，太大的视频会影响加载速度

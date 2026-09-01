@@ -1,0 +1,24 @@
+📁 图片放置说明
+========================================
+
+把你想使用的图片放到这个文件夹里，然后在
+src/content.js 文件中填写对应的路径即可。
+
+例如：
+1. 你把照片命名为 avatar.jpg 放到本文件夹
+2. 在 src/content.js 的 about.avatar.image 中填写 '/images/avatar.jpg'
+
+推荐的图片命名方式：
+- avatar.jpg      → 头像 / 人物照片
+- project1.jpg    → 精选项目1封面
+- project2.jpg    → 精选项目2封面
+- photo1.jpg      → 图片作品1
+- photo2.jpg      → 图片作品2
+- ai1.jpg         → AI作品1
+
+支持格式：jpg / jpeg / png / webp / gif
+
+📌 注意：
+- 路径必须以 /images/ 开头
+- 图片建议压缩后再放入，避免网页加载过慢
+- 大图建议宽度在 1600px 以内
